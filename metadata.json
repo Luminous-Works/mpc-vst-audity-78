@@ -1,6 +1,6 @@
 {
   "name": "Audity '78 — Open-MPC Synthesizer",
-  "description": "1978 E-mu Systems Audity polyphonic wavetable synthesizer emulation for Open-MPC with custom wavetable editor, SSM2040 DSP blocks, touchscreen LCD workflow, 32+ factory presets, and real-time MIDI CC mapping.",
+  "description": "Polyphonic wavetable synthesizer after the 1978 Audity prototype for Open-MPC with custom wavetable editor, SSM2040 DSP blocks, touchscreen LCD workflow, 32+ factory presets, and real-time MIDI CC mapping.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }

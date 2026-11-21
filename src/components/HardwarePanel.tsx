@@ -861,13 +861,13 @@ export const HardwarePanel: React.FC<HardwarePanelProps> = ({
               />
             </div>
 
-            {/* Iconic 1978 AUDITY / E-MU SYSTEMS, INC. Silkscreen Logo */}
+            {/* AUDITY / L.A. SYSTEMS silkscreen logo (interim mark; panel is being redesigned) */}
             <div className="flex flex-col items-end leading-none select-none pr-1">
               <span className="font-display text-2xl sm:text-[26px] font-bold tracking-[0.14em] text-[#113a78] drop-shadow-[0_1px_0_rgba(255,255,255,0.45)]">
                 AUDITY
               </span>
               <span className="text-[9.5px] font-bold tracking-[0.26em] text-white/95 uppercase mt-0.5">
-                E-MU SYSTEMS, INC.
+                L.A. SYSTEMS
               </span>
             </div>
           </div>

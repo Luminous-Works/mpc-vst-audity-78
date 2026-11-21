@@ -2,15 +2,18 @@
 
 ![Audity '78 front panel](public/assets/aistudio/image_6b207d2f.png)
 
-**Lumina Aerospace LLC.** A 16-voice wavetable synthesizer inspired by the 1978 E-mu Systems Audity prototype: two wavetable oscillators, an SSM2040-style 24 dB low-pass and 12 dB high-pass, two transient generators, a five-shape LFO, noise and ring mod, and a stereo effects stage. It ships with 128 factory patches in eight banks.
+**Lumina Aerospace LLC.** A 16-voice wavetable synthesizer after the 1978 Audity prototype, branded **L.A. Systems** (the original is out of production): two wavetable oscillators, an SSM2040-style 24 dB low-pass and 12 dB high-pass, two transient generators, a five-shape LFO, noise and ring mod, and a stereo effects stage. It ships with 128 factory patches in eight banks.
 
-> **Unofficial tribute.** Audity '78 is an independent emulation by Lumina Aerospace LLC. It is not affiliated with, endorsed by, or sold by E-mu Systems or Creative Technology. All waveforms are synthesised in code (`src/data/wavetables.ts`); no E-mu ROM or sample data is included.
+> **Independent project.** Audity '78 is by Lumina Aerospace LLC and is not affiliated with the makers of the original instrument. All waveforms are synthesised in code (`src/data/wavetables.ts`); no third-party ROM or sample data is included. The front-panel artwork is being redesigned; the L.A. Systems mark on it is interim.
 
 ## Status: please read
 
-This repository is the **reference emulator**: a TypeScript/WebAudio build (React + Vite) that fixes the sound, the parameter set and the patch library. The shippable plugin is the **native VST3 port**, which is in progress (see [`docs/VST3-PORT.md`](docs/VST3-PORT.md)).
+This repository is the **reference emulator**: a TypeScript/WebAudio build (React + Vite) that fixes the sound, the parameter set and the patch library. Two native builds come from it:
 
-It is **not yet** a native MPC plugin and is not ready for the Open-MPC catalogue, whose entries are native plugin builds. This repo is not a catalogue submission yet.
+- **MPC VST2** (Akai MPC OS, Gen1 and Gen2): the build that goes in the [Open MPC catalogue](https://open-mpc.github.io/), like F4 Phantom, Vulcan Rotary and Sunflower. Not started yet.
+- **VST3** for desktop DAWs. Not started yet; plan in [`docs/VST3-PORT.md`](docs/VST3-PORT.md).
+
+It is **not catalogue-ready**: the catalogue lists GitHub releases of native ARM zips built with the Open MPC tools. The steps and a draft catalogue entry are in [`docs/MPC-RELEASE.md`](docs/MPC-RELEASE.md).
 
 ## What is in it
 
@@ -43,9 +46,10 @@ Use a Chromium-based browser for MIDI input. Click once on the page so the brows
 
 ## Roadmap
 
-1. Native VST3 (C++ and FAUST DSP, matching the parameter set in `src/types/synth.ts`).
-2. More wavetable banks and a second factory-patch batch, built from original or openly licensed material.
-3. Open-MPC build, once the VST3 DSP is settled.
+1. Native DSP core (C++, FAUST) matching the parameter set in `src/types/synth.ts`, shared by both builds.
+2. MPC VST2 build and skin, released through the [Open MPC workflow](docs/MPC-RELEASE.md).
+3. VST3 build for desktop.
+4. A second factory-patch batch and more wavetables, from original or openly licensed material only (the catalogue rejects sound content you have no right to share).
 
 ## Licence
 
