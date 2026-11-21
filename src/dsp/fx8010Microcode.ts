@@ -38,7 +38,7 @@ export const FX8010_PROGRAMS: Fx8010Program[] = [
   {
     id: 'fx-audity-chorus',
     name: 'Audity BBD Ensemble (FX8010)',
-    description: 'Modulated dual-tap TRAM delay with LFO interpolation modeled for E-mu FX8010.',
+    description: 'Modulated dual-tap TRAM delay with LFO interpolation modeled for L.A. FX8010.',
     code: `; FX8010 / DANE Microcode — Stereo BBD Ensemble
 ; Ref: easypx/FX8010-Emulator-Core
 input inL, inR

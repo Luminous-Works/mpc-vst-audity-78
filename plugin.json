@@ -10,8 +10,8 @@
   "category": "Synth",
   "file32": "VST/audity-78-arm32.so",
   "file64": "VST/audity-78-arm64.so",
-  "description": "Audity 78: wavetable synthesizer after the 1978 Audity prototype. Two wavetable oscillators with morph, cross-mod FM and sync, a 12 dB high-pass and a 24 dB SSM2040-style low-pass, two transient generators, a five-shape LFO, stereo chorus, delay and reverb, 12 synthesised wavetables and 16 factory programs. Lumina Aerospace LLC.",
+  "description": "Audity '78: wavetable synthesizer after the 1978 Audity prototype. Two wavetable oscillators with morph, cross-mod FM and sync, a 12 dB high-pass and a 24 dB SSM2040-style low-pass, two transient generators, a five-shape LFO, stereo chorus, delay and reverb, 12 synthesised wavetables and 16 factory programs. Lumina Aerospace LLC.",
   "author": "Lumina Aerospace LLC",
-  "url": "https://github.com/Luminous-Works/mcp-audity-78",
+  "url": "https://github.com/Luminous-Works/mpc-vst-audity-78",
   "license": "MIT"
 }

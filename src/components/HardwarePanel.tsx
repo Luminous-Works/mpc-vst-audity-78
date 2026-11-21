@@ -454,7 +454,7 @@ export const HardwarePanel: React.FC<HardwarePanelProps> = ({
                     type="button"
                     onClick={() => cycleWave('vco1')}
                     className="text-[8.5px] font-mono-tabular text-amber-300 hover:text-white truncate max-w-[92px] cursor-pointer"
-                    title="Click to cycle E-mu wavetable for VCO 1"
+                    title="Click to cycle L.A. wavetable for VCO 1"
                   >
                     {wavetables.find((w) => w.id === patch.vco1WaveId)?.name ?? 'Saw'}
                   </button>
@@ -498,7 +498,7 @@ export const HardwarePanel: React.FC<HardwarePanelProps> = ({
                     type="button"
                     onClick={() => cycleWave('vco2')}
                     className="text-[8.5px] font-mono-tabular text-amber-300 hover:text-white truncate max-w-[92px] cursor-pointer"
-                    title="Click to cycle E-mu wavetable for VCO 2"
+                    title="Click to cycle L.A. wavetable for VCO 2"
                   >
                     {wavetables.find((w) => w.id === patch.vco2WaveId)?.name ?? 'Brass'}
                   </button>
@@ -788,7 +788,7 @@ export const HardwarePanel: React.FC<HardwarePanelProps> = ({
             </div>
           </div>
 
-          {/* Bottom Strip: F1–F12 Soft Function Switches & Iconic AUDITY E-MU Logo */}
+          {/* Bottom Strip: F1–F12 Soft Function Switches & Iconic AUDITY L.A. Logo */}
           <div className="mt-1.5 pt-1.5 border-t border-white/80 flex flex-wrap items-center justify-between gap-3 px-1">
             <div className="flex items-center gap-1.5 flex-wrap">
               {[

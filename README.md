@@ -40,7 +40,7 @@ Not catalogue-listed yet: that needs a device smoke test and a GitHub release zi
 | **Preset morph** | Crossfade between two patches (A and B) with the morph slider |
 | **MIDI** | Web MIDI input, notes, pitch bend, mod wheel (CC1), mappable CCs with MIDI Learn |
 | **Open-MPC page** | 16 Q-Link slots, two banks of eight, mapped to parameters and CCs |
-| **FX8010 viewer** | Microcode editor and parser for the E-mu FX8010 instruction set (viewer and validator, not an audio engine) |
+| **FX8010 viewer** | Microcode editor and parser for the L.A. FX8010 instruction set (viewer and validator, not an audio engine) |
 
 Source layout: `src/audio/AudityEngine.ts` (voices and signal path), `src/audio/patchMorph.ts` (A/B morph), `src/data/` (patches, wavetables, parameter descriptors), `src/types/synth.ts` (the patch model).
 

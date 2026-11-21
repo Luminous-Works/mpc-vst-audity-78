@@ -1,4 +1,4 @@
-export type WavetableSourceCategory = 'E-mu ROM' | 'SSM Analog' | 'Emulator Bank' | 'User Custom';
+export type WavetableSourceCategory = 'L.A. ROM' | 'SSM Analog' | 'L.A. Bank' | 'User Custom';
 
 export interface WavetableDefinition {
   id: string;

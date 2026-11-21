@@ -39,8 +39,8 @@ function additiveWave(harmonics: Array<[number, number, number?]>): number[] {
 }
 
 /**
- * E-mu Audity & mattetti/e-mu-soundbanks inspired wavetable library.
- * Models classic Emulator / Proteus / Audity single-cycle spectral primitives
+ * L.A. Audity & mattetti/e-mu-soundbanks inspired wavetable library.
+ * Models classic L.A. / Proton / Audity single-cycle spectral primitives
  * plus warm SSM analog waveforms.
  */
 export const FACTORY_WAVETABLES: WavetableDefinition[] = [
@@ -80,10 +80,10 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   },
   {
     id: 'emu-brass-horn',
-    name: 'Emulator Brass',
-    source: 'E-mu ROM',
-    bankRef: 'mattetti/EMU-BANK-01 / BRASS',
-    description: 'Extracted harmonic profile of classic E-mu brass ensemble with 5th-harmonic bite.',
+    name: 'L.A. Brass',
+    source: 'L.A. ROM',
+    bankRef: 'LA-BANK-01 / BRASS',
+    description: 'Extracted harmonic profile of classic L.A. brass ensemble with 5th-harmonic bite.',
     samples: additiveWave([
       [1, 1.0],
       [2, 0.78],
@@ -111,9 +111,9 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   },
   {
     id: 'emu-choir-ah',
-    name: 'Emulator Choir Ah',
-    source: 'Emulator Bank',
-    bankRef: 'mattetti/EXB-VOX / FORMANT-AH',
+    name: 'L.A. Choir Ah',
+    source: 'L.A. Bank',
+    bankRef: 'LA-VOX / FORMANT-AH',
     description: 'Formant-sculpted vocal choir cycle morphing from warm "Oo" to open "Ah" resonance.',
     samples: additiveWave([
       [1, 1.0],
@@ -136,9 +136,9 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   },
   {
     id: 'emu-string-ens',
-    name: 'E-mu Solina String',
-    source: 'Emulator Bank',
-    bankRef: 'mattetti/EXB-STR / ARC-ENS',
+    name: 'L.A. Solina String',
+    source: 'L.A. Bank',
+    bankRef: 'LA-STR / ARC-ENS',
     description: 'Phase-dispersed multi-partial string waveform for lush 1978 polyphonic pads.',
     samples: additiveWave([
       [1, 1.0, 0],
@@ -163,9 +163,9 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   },
   {
     id: 'emu-glass-bell',
-    name: 'Proteus Glass Bell',
-    source: 'E-mu ROM',
-    bankRef: 'mattetti/EBL-BELL / CRYSTAL',
+    name: 'Proton Glass Bell',
+    source: 'L.A. ROM',
+    bankRef: 'LA-BELL / CRYSTAL',
     description: 'Glassy FM-derived bell harmonic clusters with shimmering high upper partials.',
     samples: additiveWave([
       [1, 1.0],
@@ -188,7 +188,7 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   {
     id: 'emu-organ-perc',
     name: 'Audity Drawbar Organ',
-    source: 'E-mu ROM',
+    source: 'L.A. ROM',
     bankRef: 'AUDITY-78 / ORGAN-16-8',
     description: 'Sub-octave + 8ft + 4ft + 2-2/3ft drawbar harmonic stack.',
     samples: additiveWave([
@@ -211,9 +211,9 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   },
   {
     id: 'emu-metal-clang',
-    name: 'Emulator Steel Clang',
-    source: 'Emulator Bank',
-    bankRef: 'mattetti/EMU-PERC / ANVIL',
+    name: 'L.A. Steel Clang',
+    source: 'L.A. Bank',
+    bankRef: 'LA-PERC / ANVIL',
     description: 'Inharmonic metallic partial spectrum ideal for plucked leads and industrial bass.',
     samples: additiveWave([
       [1, 0.8],
@@ -235,7 +235,7 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   {
     id: 'emu-resonant-sweep',
     name: 'SSM Resonant Peak',
-    source: 'E-mu ROM',
+    source: 'L.A. ROM',
     bankRef: 'AUDITY-78 / FORMANT-RES',
     description: 'Baked resonant filter sweep embedded directly in the wavetable cycle.',
     samples: makeWave((p) => {
@@ -249,9 +249,9 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   },
   {
     id: 'emu-sub-bass',
-    name: 'E-mu Moogish Sub',
+    name: 'L.A. Moogish Sub',
     source: 'SSM Analog',
-    bankRef: 'mattetti/EMU-BASS / FAT-SUB',
+    bankRef: 'LA-BASS / FAT-SUB',
     description: 'Heavy fundamental with warm 2nd and 3rd harmonic saturation.',
     samples: additiveWave([
       [1, 1.0],
@@ -272,9 +272,9 @@ export const FACTORY_WAVETABLES: WavetableDefinition[] = [
   },
   {
     id: 'emu-digital-ep',
-    name: 'E-mu Tine Piano',
-    source: 'Emulator Bank',
-    bankRef: 'mattetti/EXB-KEYS / DYNO-EP',
+    name: 'L.A. Tine Piano',
+    source: 'L.A. Bank',
+    bankRef: 'LA-KEYS / DYNO-EP',
     description: 'Bell-like electric piano tine attack morphing into warm fundamental sustain.',
     samples: additiveWave([
       [1, 1.0],

@@ -55,7 +55,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   // =========================================================================
   {
     id: 'e01', bank: 'E', slot: 1, name: 'Schulze Timewind', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Cosmic 2.1s Berlin School analog sweep with slow phasing LFO and tape echo.',
     voiceMode: 'poly16', glide: 0.08, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.3,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.42, vco1Octave: 0, vco1Tune: 0, vco1Fine: -8, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -75,7 +75,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e02', bank: 'E', slot: 2, name: 'Oxygene Laser Harp', category: 'Lead',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Resonant 1976 French synthesizer lead with biting sync harmonics and tape slap.',
     voiceMode: 'mono', glide: 0.12, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.16,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.2, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -95,7 +95,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e03', bank: 'E', slot: 3, name: 'Blade Runner CS Brass', category: 'Brass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Emotional 1982 analog polybrass with pitch-glide scoop, warm drive, and vast hall.',
     voiceMode: 'poly16', glide: 0.09, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.28,
     vco1WaveId: 'emu-brass-horn', vco1Morph: 0.62, vco1Octave: 0, vco1Tune: 0, vco1Fine: -9, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -115,7 +115,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e04', bank: 'E', slot: 4, name: 'Moroder Octave Pulse', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: '1977 Munich disco rolling 16th-note pulse bass with razor-sharp 155ms filter snap.',
     voiceMode: 'mono', glide: 0, masterTune: 0, masterVolume: 0.84, unisonDetune: 0.12,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.08, vco1Octave: -1, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.88, vco1Pwm: 0.5,
@@ -135,7 +135,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e05', bank: 'E', slot: 5, name: 'Wakeman Prog Minimoog', category: 'Lead',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Fat 3-oscillator style progressive rock solo lead with slight 5th harmonic grit.',
     voiceMode: 'mono', glide: 0.1, masterTune: 0, masterVolume: 0.82, unisonDetune: 0.2,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.15, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -155,7 +155,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e06', bank: 'E', slot: 6, name: 'Carpenter Synth Bass', category: 'Bass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Menacing 1978 horror-score ostinato bass with dark 24dB SSM2040 punch.',
     voiceMode: 'poly16', glide: 0.02, masterTune: 0, masterVolume: 0.84, unisonDetune: 0.14,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.28, vco1Octave: -1, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.88, vco1Pwm: 0.35,
@@ -175,7 +175,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e07', bank: 'E', slot: 7, name: 'Eno Apollo Shimmer', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Weightless celestial ambient pad with 1.8s slow attack and shimmering fifth overtones.',
     voiceMode: 'poly16', glide: 0.08, masterTune: 0, masterVolume: 0.72, unisonDetune: 0.26,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.54, vco1Octave: 0, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.72, vco1Pwm: 0.5,
@@ -195,7 +195,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e08', bank: 'E', slot: 8, name: 'OB-X Fifths Brass', category: 'Brass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Classic +7 semitone power-fifth brass stack with brisk 32ms attack and wide chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.2,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.26, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -215,7 +215,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e09', bank: 'E', slot: 9, name: 'Polymoog Vox Humana', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: '1979 resonant formant string-choir hybrid sculpted with 210Hz HPF and ensemble chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.24,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.52, vco1Octave: 0, vco1Tune: 0, vco1Fine: -7, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -235,7 +235,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e10', bank: 'E', slot: 10, name: 'Arp 2600 Zap Seq', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Laser-fast 90ms resonant filter & pitch zap step sequence.',
     voiceMode: 'mono', glide: 0.03, masterTune: 0, masterVolume: 0.82, unisonDetune: 0.1,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.05, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -255,7 +255,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e11', bank: 'E', slot: 11, name: 'Bowed Glass Choir', category: 'Wavetable',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Fragile bowed crystal harmonic texture swelling over 0.9s into airy choir.',
     voiceMode: 'poly16', glide: 0.04, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.22,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.82, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.78, vco1Pwm: 0.5,
@@ -275,7 +275,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e12', bank: 'E', slot: 12, name: 'Koto Plucked String', category: 'Keys',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Sharp 2ms plucked Japanese koto with fast harmonic damping and stereo room.',
     voiceMode: 'poly16', glide: 0.03, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.1,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.26, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -295,7 +295,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e13', bank: 'E', slot: 13, name: 'Taurus Sub Pedal', category: 'Bass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Floor-shaking -2 octave analog bass pedal with slow filter bloom and massive sustain.',
     voiceMode: 'mono', glide: 0.06, masterTune: 0, masterVolume: 0.88, unisonDetune: 0.26,
     vco1WaveId: 'emu-sub-bass', vco1Morph: 0.62, vco1Octave: -2, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.92, vco1Pwm: 0.65,
@@ -315,7 +315,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e14', bank: 'E', slot: 14, name: 'Solaris Radio Telemetry', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Stepped Sample & Hold pitch-and-filter communications chatter in resonant echo.',
     voiceMode: 'poly16', glide: 0.15, masterTune: 0, masterVolume: 0.72, unisonDetune: 0.16,
     vco1WaveId: 'emu-resonant-sweep', vco1Morph: 0.55, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.74, vco1Pwm: 0.5,
@@ -335,7 +335,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e15', bank: 'E', slot: 15, name: 'Symphonic Brass Ensemble', category: 'Brass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Layered dual-octave brass fanfare with 58ms tongue attack and rich hall ambiance.',
     voiceMode: 'poly16', glide: 0.02, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.24,
     vco1WaveId: 'emu-brass-horn', vco1Morph: 0.36, vco1Octave: 0, vco1Tune: 0, vco1Fine: -6, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -355,7 +355,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'e16', bank: 'E', slot: 16, name: 'Analog Glass Arpeggio', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Sparkling major-9th arpeggio pairing Tri-Fold waves with crystal bell attack.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.14,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.42, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -375,11 +375,11 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
 
   // =========================================================================
-  // BANK F: EMULATOR, PROTEUS & HYBRID KEYS (1..16)
+  // BANK F: L.A., PROTEUS & HYBRID KEYS (1..16)
   // =========================================================================
   {
-    id: 'f01', bank: 'F', slot: 1, name: 'Emulator II Harp', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    id: 'f01', bank: 'F', slot: 1, name: 'L.A. II Harp', category: 'Keys',
+    author: 'L.A. / Soundbanks',
     description: 'Delicate plucked concert harp with bright initial transient and 1.15s natural ring-out.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.1,
     vco1WaveId: 'emu-digital-ep', vco1Morph: 0.16, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -398,8 +398,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 108, sequencerSteps: SEQ_SHIMMER,
   },
   {
-    id: 'f02', bank: 'F', slot: 2, name: 'Proteus Bright Grand', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    id: 'f02', bank: 'F', slot: 2, name: 'Proton Bright Grand', category: 'Keys',
+    author: 'L.A. / Soundbanks',
     description: 'Hybrid 80s studio grand piano layering percussive tines with warm saw/tri sustain.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.14,
     vco1WaveId: 'emu-digital-ep', vco1Morph: 0.42, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -419,7 +419,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f03', bank: 'F', slot: 3, name: 'Harpsichord 1978', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Crispy octave-coupled Baroque harpsichord with zero sustain and razor pulse harmonics.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.08,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.9, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.82, vco1Pwm: 0.12,
@@ -438,8 +438,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 120, sequencerSteps: SEQ_SHIMMER,
   },
   {
-    id: 'f04', bank: 'F', slot: 4, name: 'Emulator Jazz Organ', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    id: 'f04', bank: 'F', slot: 4, name: 'L.A. Jazz Organ', category: 'Keys',
+    author: 'L.A. / Soundbanks',
     description: 'Percussive B3-style drawbar organ with snappy key-click transient and Leslie chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.08,
     vco1WaveId: 'emu-organ-perc', vco1Morph: 0.35, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -459,8 +459,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f05', bank: 'F', slot: 5, name: 'Digital Bell Choir', category: 'Wavetable',
-    author: 'E-mu / Soundbanks',
-    description: 'Attack bell chime blooming into sustained Emulator vocal choir formants.',
+    author: 'L.A. / Soundbanks',
+    description: 'Attack bell chime blooming into sustained L.A. vocal choir formants.',
     voiceMode: 'poly16', glide: 0.02, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.22,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.32, vco1Octave: 0, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.74, vco1Pwm: 0.5,
     vco2WaveId: 'emu-choir-ah', vco2Morph: 0.58, vco2Octave: 0, vco2Tune: 0, vco2Fine: 5, vco2Level: 0.76, vco2Sync: false, crossModFm: 0.06,
@@ -479,7 +479,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f06', bank: 'F', slot: 6, name: 'Sitar Drone Harmonics', category: 'Wavetable',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Buzzy sitar-like sympathetic metallic overtones with resonant HPF/LPF nasal peak.',
     voiceMode: 'poly16', glide: 0.06, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.14,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.52, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -498,8 +498,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 106, sequencerSteps: SEQ_PHRYGIAN,
   },
   {
-    id: 'f07', bank: 'F', slot: 7, name: 'Proteus Acoustic Bass', category: 'Bass',
-    author: 'E-mu / Soundbanks',
+    id: 'f07', bank: 'F', slot: 7, name: 'Proton Acoustic Bass', category: 'Bass',
+    author: 'L.A. / Soundbanks',
     description: 'Woody upright pizzicato finger-bass with soft muted low-pass roll-off.',
     voiceMode: 'mono', glide: 0.04, masterTune: 0, masterVolume: 0.86, unisonDetune: 0.08,
     vco1WaveId: 'emu-sub-bass', vco1Morph: 0.28, vco1Octave: -1, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.9, vco1Pwm: 0.5,
@@ -519,7 +519,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f08', bank: 'F', slot: 8, name: 'FM Crystal Rhodes', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: '1984 glass-tine FM electric piano with sparkling +1 octave chime and stereo chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.12,
     vco1WaveId: 'emu-digital-ep', vco1Morph: 0.1, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -538,8 +538,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 104, sequencerSteps: SEQ_SHIMMER,
   },
   {
-    id: 'f09', bank: 'F', slot: 9, name: 'Emulator Woodwind Oboe', category: 'Lead',
-    author: 'E-mu / Soundbanks',
+    id: 'f09', bank: 'F', slot: 9, name: 'L.A. Woodwind Oboe', category: 'Lead',
+    author: 'L.A. / Soundbanks',
     description: 'Nasal double-reed oboe lead sculpted with resonant 380Hz HPF and gentle 72ms swell.',
     voiceMode: 'mono', glide: 0.05, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.1,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.78, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.84, vco1Pwm: 0.22,
@@ -559,7 +559,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f10', bank: 'F', slot: 10, name: 'Steel Drum Calypso', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Bright tuned Caribbean steel pan with metallic overtone ping and rapid damp.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.12,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.18, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.78, vco1Pwm: 0.5,
@@ -578,8 +578,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 118, sequencerSteps: SEQ_SHIMMER,
   },
   {
-    id: 'f11', bank: 'F', slot: 11, name: 'E-mu Choir Cathedral', category: 'Pad',
-    author: 'E-mu / Soundbanks',
+    id: 'f11', bank: 'F', slot: 11, name: 'L.A. Choir Cathedral', category: 'Pad',
+    author: 'L.A. / Soundbanks',
     description: 'Sacred 16-voice cathedral choir pad with 1.1s attack and deep reverberant space.',
     voiceMode: 'poly16', glide: 0.03, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.28,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.44, vco1Octave: 0, vco1Tune: 0, vco1Fine: -8, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -598,8 +598,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 80, sequencerSteps: SEQ_DUB_ECHO,
   },
   {
-    id: 'f12', bank: 'F', slot: 12, name: 'Proteus Slap Bass', category: 'Bass',
-    author: 'E-mu / Soundbanks',
+    id: 'f12', bank: 'F', slot: 12, name: 'Proton Slap Bass', category: 'Bass',
+    author: 'L.A. / Soundbanks',
     description: 'Bright velocity-snappy 80s slap synth bass with metallic pop and tight sub punch.',
     voiceMode: 'mono', glide: 0.03, masterTune: 0, masterVolume: 0.84, unisonDetune: 0.12,
     vco1WaveId: 'emu-sub-bass', vco1Morph: 0.48, vco1Octave: -1, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.9, vco1Pwm: 0.5,
@@ -619,8 +619,8 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f13', bank: 'F', slot: 13, name: 'Orchestral Hit 1981', category: 'Brass',
-    author: 'E-mu / Soundbanks',
-    description: 'Iconic Emulator-style fifth-stacked orchestra stab with explosive 190ms decay.',
+    author: 'L.A. / Soundbanks',
+    description: 'Iconic L.A.-style fifth-stacked orchestra stab with explosive 190ms decay.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.82, unisonDetune: 0.28,
     vco1WaveId: 'emu-brass-horn', vco1Morph: 0.76, vco1Octave: 0, vco1Tune: 0, vco1Fine: -7, vco1Level: 0.86, vco1Pwm: 0.5,
     vco2WaveId: 'emu-string-ens', vco2Morph: 0.82, vco2Octave: 0, vco2Tune: 7, vco2Fine: 8, vco2Level: 0.82, vco2Sync: false, crossModFm: 0.04,
@@ -639,7 +639,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f14', bank: 'F', slot: 14, name: 'Vibraphone Tremolo', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Warm mallet vibraphone with smooth 4.4Hz amplitude tremolo and long bell ring.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.08,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.08, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -659,7 +659,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f15', bank: 'F', slot: 15, name: 'Wavetable Accordion', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Musette-detuned dual reed accordion with brisk bellows onset and lively vibrato.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.22,
     vco1WaveId: 'emu-organ-perc', vco1Morph: 0.56, vco1Octave: 0, vco1Tune: 0, vco1Fine: -12, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -679,7 +679,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'f16', bank: 'F', slot: 16, name: 'Hybrid Wave Sequence', category: 'Seq',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Wavestation-style morphing step sequence cycling through resonant sweep partials.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.16,
     vco1WaveId: 'emu-resonant-sweep', vco1Morph: 0.4, vco1Octave: 0, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -1027,7 +1027,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   // =========================================================================
   {
     id: 'h01', bank: 'H', slot: 1, name: 'Aurora Borealis', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: '2.4s arctic atmospheric swell morphing across Glass Bell and String Ensemble.',
     voiceMode: 'poly16', glide: 0.08, masterTune: 0, masterVolume: 0.72, unisonDetune: 0.3,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.45, vco1Octave: 0, vco1Tune: 0, vco1Fine: -7, vco1Level: 0.76, vco1Pwm: 0.5,
@@ -1047,7 +1047,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h02', bank: 'H', slot: 2, name: 'Abyssal Whale Song', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Deep ocean gliding resonant harmonics with slow portamento and cathedral echo.',
     voiceMode: 'mono', glide: 0.65, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.22,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.28, vco1Octave: -1, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -1067,7 +1067,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h03', bank: 'H', slot: 3, name: 'Micro-Grain Clouds', category: 'Wavetable',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Rapid Sample & Hold stepped wavetable morphing creating granular bell clouds.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.72, unisonDetune: 0.26,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.5, vco1Octave: 0, vco1Tune: 0, vco1Fine: -6, vco1Level: 0.74, vco1Pwm: 0.5,
@@ -1087,7 +1087,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h04', bank: 'H', slot: 4, name: 'Bowed Cymbal Wash', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Slow 2.6s metallic ring-modulated swell evoking a violin bow drawn across a cymbal.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.7, unisonDetune: 0.34,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.85, vco1Octave: 0, vco1Tune: 0, vco1Fine: -14, vco1Level: 0.62, vco1Pwm: 0.5,
@@ -1107,7 +1107,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h05', bank: 'H', slot: 5, name: 'VHS Nostalgia Strings', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Warm 1983 instructional-video string pad with gentle tape flutter and soft roll-off.',
     voiceMode: 'poly16', glide: 0.03, masterTune: -8, masterVolume: 0.76, unisonDetune: 0.22,
     vco1WaveId: 'emu-string-ens', vco1Morph: 0.34, vco1Octave: 0, vco1Tune: 0, vco1Fine: -7, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -1127,7 +1127,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h06', bank: 'H', slot: 6, name: 'Resonant Wind Tunnel', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Pink-noise airflow sculpted by self-oscillating dual SSM2040 filters.',
     voiceMode: 'poly16', glide: 0.2, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.18,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.05, vco1Octave: -1, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.22, vco1Pwm: 0.5,
@@ -1147,7 +1147,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h07', bank: 'H', slot: 7, name: 'Phrygian Oud Pluck', category: 'Wavetable',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Exotic resonant plucked string with sharp transient bite and subtle fifth undertone.',
     voiceMode: 'poly16', glide: 0.04, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.14,
     vco1WaveId: 'emu-resonant-sweep', vco1Morph: 0.32, vco1Octave: 0, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -1167,7 +1167,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h08', bank: 'H', slot: 8, name: 'Cathedral Brass Organ', category: 'Brass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Monumental pipe-organ + brass stack with instantaneous majesty and 1.8s release.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.22,
     vco1WaveId: 'emu-organ-perc', vco1Morph: 0.72, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -1187,7 +1187,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h09', bank: 'H', slot: 9, name: 'Oscillating Sine Arp', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Pure bubbling triangle-bell arpeggiator bouncing through ping-pong tape echo.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.08,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.04, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -1207,7 +1207,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h10', bank: 'H', slot: 10, name: 'Warm Analog Sub Pad', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Deep comforting low-register analog blanket with -1 octave sub warmth.',
     voiceMode: 'poly16', glide: 0.06, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.2,
     vco1WaveId: 'emu-sub-bass', vco1Morph: 0.38, vco1Octave: -1, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -1227,7 +1227,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h11', bank: 'H', slot: 11, name: 'Electric Cello Solo', category: 'Lead',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Expressive monophonic bowed cello lead with 165ms bow onset and late vibrato.',
     voiceMode: 'mono', glide: 0.12, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.12,
     vco1WaveId: 'emu-string-ens', vco1Morph: 0.22, vco1Octave: -1, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -1247,7 +1247,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h12', bank: 'H', slot: 12, name: 'Polyrhythm Metallic', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Percussive ring-modulated step sequence with crisp 110ms decay and tight echo.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.12,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.62, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.76, vco1Pwm: 0.5,
@@ -1267,7 +1267,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h13', bank: 'H', slot: 13, name: 'Dreamtime Glass Piano', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Ethereal layered glass bell & tine piano swimming in lush chorus and long hall.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.16,
     vco1WaveId: 'emu-digital-ep', vco1Morph: 0.28, vco1Octave: 0, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -1287,7 +1287,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h14', bank: 'H', slot: 14, name: 'Sputnik Telemetry', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: '1957 orbital beacon pulses with stepped S&H filter pings and deep radio static.',
     voiceMode: 'poly16', glide: 0.05, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.14,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.08, vco1Octave: 1, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.72, vco1Pwm: 0.5,
@@ -1307,7 +1307,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h15', bank: 'H', slot: 15, name: 'Deep Drone Bass', category: 'Bass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Sustained ominous sub-bass foundation with slowly breathing cross-mod overtones.',
     voiceMode: 'mono', glide: 0.24, masterTune: 0, masterVolume: 0.86, unisonDetune: 0.22,
     vco1WaveId: 'emu-sub-bass', vco1Morph: 0.45, vco1Octave: -2, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.92, vco1Pwm: 0.5,
@@ -1327,7 +1327,7 @@ export const EXTRA_FACTORY_PRESETS: AudityPatch[] = [
   },
   {
     id: 'h16', bank: 'H', slot: 16, name: 'Audity Nebula Pad', category: 'Wavetable',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: '128th flagship patch — cosmic Choir Ah + Resonant Peak morphing across infinite space.',
     voiceMode: 'poly16', glide: 0.06, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.3,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.35, vco1Octave: 0, vco1Tune: 0, vco1Fine: -8, vco1Level: 0.78, vco1Pwm: 0.5,

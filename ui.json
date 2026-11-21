@@ -15,7 +15,7 @@
       { "param": "Volume", "widget": "fader" }, { "param": "Glide", "widget": "knob" },
       { "param": "Master Tune", "widget": "knob", "polarity": "bipolar" }, { "param": "Spread", "widget": "knob" },
       { "param": "Noise", "widget": "knob" }, { "param": "Noise Color", "widget": "knob" },
-      { "param": "Velocity", "widget": "knob" }, "empty",
+      { "param": "Velocity", "widget": "knob" }, { "widget": "text", "text": "Audity '78" },
       { "param": "Voice Mode", "widget": "switch" }
     ] },
     { "name": "FILTER", "controls": [
