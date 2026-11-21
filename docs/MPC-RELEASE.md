@@ -31,3 +31,24 @@ Only open this PR once a release zip passes `catalog_check.py`.
   "style": "synth", "tags": ["wavetable", "polyphonic", "analog"],
   "screenshot": "https://raw.githubusercontent.com/Luminous-Works/mpc-vst-audity-78/<tag>/docs/screenshots/audity-78.png" }
 ```
+
+## What was actually run for 0.1.0 (2026-11-21)
+
+The generic loop above is the catalogue's description. This project is an Akai-format SDK project, so the real steps were:
+
+1. Build and test with the MPC Plugin SDK (next to this repo): `python <sdk>/tools/build.py "<this folder>"`, then `<sdk>/.sdk-tools/host_sim.exe build/native/audity-78.dll test --wav build/test.wav` (19 passed, 0 failures).
+2. Clone the catalogue repo (`open-mpc/mpc-vst-plugins`) somewhere outside this folder. Package per-CPU zips from the SDK build folder:
+   `python tools/sdk_release.py "<this folder>/build/Lumina Aerospace LLC - VST - Audity 78" --version 0.1.0 --id audity-78 --repo Luminous-Works/mpc-vst-audity-78 --license MIT -o "<this folder>/dist"`
+   This writes `Audity-78-0.1.0-mpc-armv7.zip` (Gen1) and `Audity-78-0.1.0-mpc-aarch64.zip` (Gen2).
+3. Check each: `python tools/catalog_check.py <zip> --catalog` (OK, 0 warnings).
+4. Screenshot: `python <sdk>/tools/ui_preview.py` crashed on the string `"empty"` entries in `ui.json` (SDK previewer bug at the time), so a temporary copy with `{"widget": "empty"}` in their place was previewed instead. Copy a tab PNG to `docs/screenshots/audity-78.png` (about 2:1).
+5. Commit the screenshot to main, then `gh release create v0.1.0 <both zips> --target main --notes-file <notes>`. Notes say plainly that it is not device-tested.
+6. Catalogue PR: fork `open-mpc/mpc-vst-plugins`, branch `add-audity-78`, add `catalog/plugins/audity-78.json` (a copy of `publish/catalog-entry.json`), open the PR with the `catalog_check.py` output and both zips' SHA-256 under "What and why" (PR template). Opened as open-mpc/mpc-vst-plugins#1077.
+7. Device test (still to do): a tester loads the zip on a track, plays it, turns every page, saves and reloads a project. Then add `tested.json` at this repo's root:
+   `[ { "version": "0.1.0", "device": "MPC Live III (Gen2)", "firmware": "<MPC OS version>", "date": "YYYY-MM-DD" } ]`
+
+Release zip SHA-256 (0.1.0):
+- armv7: `5487b7af16075cdf7c3f8ef9c3ad06486a40f691f6aff02efc61e92ad5f3d9e5`
+- aarch64: `e98a42592fd6b8ccf3cd6a7f3644af1ab9f33e24c60becd690958b02a1b11d0c`
+
+Next version: bump `plugin.json` `version` (Y for new parameters, Z for fixes), keep the uid `AU78`, the `.so` name and the catalogue id `audity-78` fixed forever, and append new parameters at the end.
