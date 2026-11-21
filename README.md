@@ -2,18 +2,28 @@
 
 ![Audity '78 front panel](public/assets/aistudio/image_6b207d2f.png)
 
-**Lumina Aerospace LLC.** A 16-voice wavetable synthesizer after the 1978 Audity prototype, branded **L.A. Systems** (the original is out of production): two wavetable oscillators, an SSM2040-style 24 dB low-pass and 12 dB high-pass, two transient generators, a five-shape LFO, noise and ring mod, and a stereo effects stage. It ships with 128 factory patches in eight banks.
+**Lumina Aerospace LLC.** A wavetable synthesizer (16 voices in the reference, 8 on the MPC) after the 1978 Audity prototype, carrying the **L.A.** (Lumina.Aerospace) mark (the original is out of production): two wavetable oscillators, an SSM2040-style 24 dB low-pass and 12 dB high-pass, two transient generators, a five-shape LFO, noise and ring mod, and a stereo effects stage. It ships with 128 factory patches in eight banks.
 
-> **Independent project.** Audity '78 is by Lumina Aerospace LLC and is not affiliated with the makers of the original instrument. All waveforms are synthesised in code (`src/data/wavetables.ts`); no third-party ROM or sample data is included. The front-panel artwork is being redesigned; the L.A. Systems mark on it is interim.
+> **Independent project.** Audity '78 is by Lumina Aerospace LLC and is not affiliated with the makers of the original instrument. All waveforms are synthesised in code (`src/data/wavetables.ts`); no third-party ROM or sample data is included.
 
 ## Status: please read
 
-This repository is the **reference emulator**: a TypeScript/WebAudio build (React + Vite) that fixes the sound, the parameter set and the patch library. Two native builds come from it:
+This repository holds two things:
 
-- **MPC VST2** (Akai MPC OS, Gen1 and Gen2): the build that goes in the [Open MPC catalogue](https://open-mpc.github.io/), like F4 Phantom, Vulcan Rotary and Sunflower. Not started yet.
-- **VST3** for desktop DAWs. Not started yet; plan in [`docs/VST3-PORT.md`](docs/VST3-PORT.md).
+- **The MPC plugin (VST2, Akai MPC OS, Gen1 and Gen2)**: `src/Audity78.cpp` (wrapper) on the shared DSP core `src/lumina/audity_core.hpp`, with `plugin.json` and `ui.json`. It builds with the MPC Plugin SDK for 32-bit ARM and 64-bit ARM with 0 errors and 0 warnings, and passes the SDK host simulator (19 checks, 0 failures; 52 parameters, 16 programs, state round-trip, block sizes 32 to 512). **It has not been run on a real MPC yet**, and CPU on a device has not been measured (the host simulator reports 0.26% of the block budget on a desktop CPU, for orientation only).
+- **The reference emulator** (`src/` TypeScript, React + Vite): the WebAudio build that fixes the sound, the parameter set and the 128-patch library. The native plugin takes its wavetables, parameter ranges and bank A (16 programs) from it via `tools/export_data.mjs`.
 
-It is **not catalogue-ready**: the catalogue lists GitHub releases of native ARM zips built with the Open MPC tools. The steps and a draft catalogue entry are in [`docs/MPC-RELEASE.md`](docs/MPC-RELEASE.md).
+A desktop VST3 and desktop app are planned as a separate build after the catalogue release.
+
+Not catalogue-listed yet: that needs a device smoke test and a GitHub release zip. Steps are in [`docs/MPC-RELEASE.md`](docs/MPC-RELEASE.md).
+
+### Known gaps in the MPC build
+
+- Wavetable lookup is not band-limited, so bright tables alias on high notes.
+- 8 voices (the reference has 16). Raise `AUDITY_MAX_VOICES` only after a device CPU bench. Unison uses 3 voices per note.
+- VCO2 Sync is true hard sync; the reference approximates it with a pitch shift.
+- Mod matrix and step sequencer are not implemented. Only bank A is on the MPC so far.
+- The touch skin is the SDK's generated "amber" layout from `ui.json`, six pages; no custom artwork yet.
 
 ## What is in it
 
@@ -34,7 +44,17 @@ It is **not catalogue-ready**: the catalogue lists GitHub releases of native ARM
 
 Source layout: `src/audio/AudityEngine.ts` (voices and signal path), `src/audio/patchMorph.ts` (A/B morph), `src/data/` (patches, wavetables, parameter descriptors), `src/types/synth.ts` (the patch model).
 
-## Run it
+## Build the MPC plugin
+
+You need the [MPC Plugin SDK](https://github.com/inmusic-software/mpc-plugin-builder-sdk) checked out next to this folder, and Python.
+
+    python <sdk>/tools/build.py "<this folder>"            # native + arm32 + arm64 + skins + validation
+    <sdk>/.sdk-tools/host_sim <this folder>/build/native/audity-78.dll test --wav out.wav
+    python <sdk>/tools/package.py "<this folder>"          # release zip
+
+The output folder is `build/Lumina Aerospace LLC - VST - Audity 78/`. Regenerate the wavetable and program data after changing the reference (`src/data/`): `node tools/export_data.mjs` (Node 22.6 or newer). A quick native check of the core alone: `g++ -std=c++17 -O2 -I src/lumina tools/host_test.cpp -o build/host_test && build/host_test`.
+
+## Run the reference emulator
 
 You need Node.js. No API key is needed.
 
@@ -46,9 +66,9 @@ Use a Chromium-based browser for MIDI input. Click once on the page so the brows
 
 ## Roadmap
 
-1. Native DSP core (C++, FAUST) matching the parameter set in `src/types/synth.ts`, shared by both builds.
-2. MPC VST2 build and skin, released through the [Open MPC workflow](docs/MPC-RELEASE.md).
-3. VST3 build for desktop.
+1. Device test on an MPC, CPU bench, then the MPC release through the [Open MPC workflow](docs/MPC-RELEASE.md).
+2. Banks B to H on the MPC; band-limited wavetables; custom skin.
+3. Desktop VST3 and desktop app (after the catalogue release).
 4. A second factory-patch batch and more wavetables, from original or openly licensed material only (the catalogue rejects sound content you have no right to share).
 
 ## Licence

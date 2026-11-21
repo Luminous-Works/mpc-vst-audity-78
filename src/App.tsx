@@ -713,7 +713,7 @@ export default function App() {
       {/* Quiet Studio Footer */}
       <footer className="px-5 py-2.5 border-t border-slate-800/80 bg-[#0c0e12] text-[11px] text-slate-400 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2 font-mono-tabular">
-          <span>L.A. Systems Audity '78 (after the 1978 prototype)</span>
+          <span>L.A. Audity '78 (after the 1978 prototype)</span>
           <span aria-hidden="true">·</span>
           <span>16-Voice SSM2040 + FX8010 DSP Core</span>
           <span aria-hidden="true">·</span>
