@@ -61,7 +61,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   // =========================================================================
   buildPatch({
     id: 'a01', bank: 'A', slot: 1, name: 'Audity 1978 Brass', category: 'Brass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Flagship Z-80 polyphonic brass modeled on the 1978 Audity SSM2040 voice card.',
     voiceMode: 'poly16', glide: 0.02, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.2,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.14, vco1Octave: 0, vco1Tune: 0, vco1Fine: -6, vco1Level: 0.85, vco1Pwm: 0.48,
@@ -81,7 +81,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a02', bank: 'A', slot: 2, name: 'Baumann Berlin Seq', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Inspired by Tangerine Dream Peter Baumann sequences with snappy exponential SSM filter pluck.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.15,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.72, vco1Octave: 0, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.82, vco1Pwm: 0.25,
@@ -101,8 +101,8 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a03', bank: 'A', slot: 3, name: 'SSM2040 Glass Pad', category: 'Pad',
-    author: 'E-mu / Audity 78',
-    description: 'Slow-blooming wavetable pad with 0.95s attack swelling into crystalline Proteus partials.',
+    author: 'L.A. / Audity 78',
+    description: 'Slow-blooming wavetable pad with 0.95s attack swelling into crystalline Proton partials.',
     voiceMode: 'poly16', glide: 0.08, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.3,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.38, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.74, vco1Pwm: 0.5,
     vco2WaveId: 'emu-string-ens', vco2Morph: 0.55, vco2Octave: 0, vco2Tune: 0, vco2Fine: 8, vco2Level: 0.76, vco2Sync: false, crossModFm: 0.04,
@@ -120,9 +120,9 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 92, sequencerSteps: SEQ_AMBIENT,
   }),
   buildPatch({
-    id: 'a04', bank: 'A', slot: 4, name: 'Emulator Choir Morph', category: 'Wavetable',
-    author: 'E-mu / Audity 78',
-    description: 'Morphing vocal formants from mattetti E-mu Soundbanks with breathing vowel sweep.',
+    id: 'a04', bank: 'A', slot: 4, name: 'L.A. Choir Morph', category: 'Wavetable',
+    author: 'L.A. / Audity 78',
+    description: 'Morphing vocal formants from L.A. wavetable bank with breathing vowel sweep.',
     voiceMode: 'poly16', glide: 0.05, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.24,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.25, vco1Octave: 0, vco1Tune: 0, vco1Fine: -7, vco1Level: 0.86, vco1Pwm: 0.5,
     vco2WaveId: 'emu-choir-ah', vco2Morph: 0.75, vco2Octave: 0, vco2Tune: 0, vco2Fine: 9, vco2Level: 0.65, vco2Sync: false, crossModFm: 0,
@@ -140,8 +140,8 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 96, sequencerSteps: SEQ_ARP_MAJ9,
   }),
   buildPatch({
-    id: 'a05', bank: 'A', slot: 5, name: 'Rossum Ladder Bass', category: 'Bass',
-    author: 'E-mu / Audity 78',
+    id: 'a05', bank: 'A', slot: 5, name: 'L.A. Ladder Bass', category: 'Bass',
+    author: 'L.A. / Audity 78',
     description: 'Punchy mono sub bass with tight 310ms filter decay and heavy SSM2040 OTA saturation.',
     voiceMode: 'mono', glide: 0.11, masterTune: 0, masterVolume: 0.84, unisonDetune: 0.1,
     vco1WaveId: 'emu-sub-bass', vco1Morph: 0.35, vco1Octave: -1, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.9, vco1Pwm: 0.72,
@@ -161,7 +161,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a06', bank: 'A', slot: 6, name: 'Z-80 Poly Strings', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Lush 16-voice string ensemble with sweeping high-pass contour and stereo BBD chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.26,
     vco1WaveId: 'emu-string-ens', vco1Morph: 0.22, vco1Octave: 0, vco1Tune: 0, vco1Fine: -9, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -181,7 +181,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a07', bank: 'A', slot: 7, name: 'Calgary Prototype Lead', category: 'Lead',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Hard-synced unison lead with aggressive +7st harmonic tear and expressive delay.',
     voiceMode: 'unison', glide: 0.16, masterTune: 0, masterVolume: 0.75, unisonDetune: 0.32,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.3, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.78, vco1Pwm: 0.5,
@@ -200,8 +200,8 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 120, sequencerSteps: SEQ_BERLIN,
   }),
   buildPatch({
-    id: 'a08', bank: 'A', slot: 8, name: 'E-mu Dyno Tines', category: 'Keys',
-    author: 'E-mu / Audity 78',
+    id: 'a08', bank: 'A', slot: 8, name: 'L.A. Dyno Tines', category: 'Keys',
+    author: 'L.A. / Audity 78',
     description: 'Percussive electric piano with zero attack, 1.45s exponential tine decay, and chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.12,
     vco1WaveId: 'emu-digital-ep', vco1Morph: 0.22, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.88, vco1Pwm: 0.4,
@@ -220,8 +220,8 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 108, sequencerSteps: SEQ_ARP_MAJ9,
   }),
   buildPatch({
-    id: 'a09', bank: 'A', slot: 9, name: 'Proteus Steel Arp', category: 'Wavetable',
-    author: 'E-mu / Audity 78',
+    id: 'a09', bank: 'A', slot: 9, name: 'Proton Steel Arp', category: 'Wavetable',
+    author: 'L.A. / Audity 78',
     description: 'Sharp metallic pluck combining Steel Clang and Glass Bell with crisp 240ms decay.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.18,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.42, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.76, vco1Pwm: 0.5,
@@ -241,7 +241,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a10', bank: 'A', slot: 10, name: '1978 Modular Horn', category: 'Brass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Warm solo/poly French horn with 110ms brass swell and sub-octave triangle body.',
     voiceMode: 'poly16', glide: 0.04, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.18,
     vco1WaveId: 'emu-brass-horn', vco1Morph: 0.48, vco1Octave: 0, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -261,7 +261,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a11', bank: 'A', slot: 11, name: 'Drawbar Cathedral', category: 'Keys',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Gate-like Audity drawbar organ with instantaneous attack, full sustain, and fast rotary chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.1,
     vco1WaveId: 'emu-organ-perc', vco1Morph: 0.2, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -281,7 +281,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a12', bank: 'A', slot: 12, name: 'Resonant Formant Bass', category: 'Bass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Talking formant wavetable bass carved with resonant HPF bump and snappy envelope.',
     voiceMode: 'mono', glide: 0.07, masterTune: 0, masterVolume: 0.84, unisonDetune: 0.14,
     vco1WaveId: 'emu-resonant-sweep', vco1Morph: 0.45, vco1Octave: -1, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -301,7 +301,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a13', bank: 'A', slot: 13, name: 'West Coast Fold Lead', category: 'Lead',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Buchla-meets-Audity wavefolded triangle core with octave ring-mod sheen.',
     voiceMode: 'mono', glide: 0.14, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.18,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.76, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -321,7 +321,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a14', bank: 'A', slot: 14, name: 'Silicon Valley Dawn', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Slow 1.3s cinematic sunrise pad blending analog saw with Choir Ah formants.',
     voiceMode: 'poly16', glide: 0.04, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.28,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.35, vco1Octave: 0, vco1Tune: 0, vco1Fine: -10, vco1Level: 0.76, vco1Pwm: 0.5,
@@ -341,7 +341,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a15', bank: 'A', slot: 15, name: 'RingMod Spacecraft', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Sci-fi ring-modulated texture with stepped Sample & Hold sweeping resonant dual filters.',
     voiceMode: 'poly16', glide: 0.25, masterTune: 0, masterVolume: 0.72, unisonDetune: 0.4,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.5, vco1Octave: 0, vco1Tune: 0, vco1Fine: -12, vco1Level: 0.62, vco1Pwm: 0.5,
@@ -361,7 +361,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'a16', bank: 'A', slot: 16, name: 'Audity Init Pure', category: 'Wavetable',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Clean dual-oscillator template for building custom wavetable patches from scratch.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.15,
     vco1WaveId: 'ssm-saw', vco1Morph: 0, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -385,7 +385,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   // =========================================================================
   buildPatch({
     id: 'b01', bank: 'B', slot: 1, name: 'Krautrock Motorik', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Tight 16th-note percussive pulse with 175ms filter decay for driving Düsseldorf grooves.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.82, unisonDetune: 0.15,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.2, vco1Octave: 0, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.85, vco1Pwm: 0.5,
@@ -404,8 +404,8 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 134, sequencerSteps: SEQ_MOTORIK,
   }),
   buildPatch({
-    id: 'b02', bank: 'B', slot: 2, name: 'E-mu Poly Clav', category: 'Keys',
-    author: 'E-mu / Audity 78',
+    id: 'b02', bank: 'B', slot: 2, name: 'L.A. Poly Clav', category: 'Keys',
+    author: 'L.A. / Audity 78',
     description: 'Biting thin-pulse clavinet with resonant 290Hz HPF midrange bite and fast staccato decay.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.1,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.88, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.88, vco1Pwm: 0.14,
@@ -424,9 +424,9 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 112, sequencerSteps: SEQ_MOTORIK,
   }),
   buildPatch({
-    id: 'b03', bank: 'B', slot: 3, name: 'Emulator Vox Halo', category: 'Pad',
-    author: 'E-mu / Audity 78',
-    description: 'Airy octave-layered choir pad crowned with shimmering high Proteus bell harmonics.',
+    id: 'b03', bank: 'B', slot: 3, name: 'L.A. Vox Halo', category: 'Pad',
+    author: 'L.A. / Audity 78',
+    description: 'Airy octave-layered choir pad crowned with shimmering high Proton bell harmonics.',
     voiceMode: 'poly16', glide: 0.03, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.26,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.72, vco1Octave: 0, vco1Tune: 0, vco1Fine: -6, vco1Level: 0.82, vco1Pwm: 0.5,
     vco2WaveId: 'emu-glass-bell', vco2Morph: 0.35, vco2Octave: 1, vco2Tune: 0, vco2Fine: 7, vco2Level: 0.44, vco2Sync: false, crossModFm: 0.02,
@@ -445,7 +445,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b04', bank: 'B', slot: 4, name: 'SSM Acidic Squelch', category: 'Bass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'High-resonance 24dB/oct SSM2040 squelch bass with extreme +84% filter envelope snap.',
     voiceMode: 'mono', glide: 0.08, masterTune: 0, masterVolume: 0.82, unisonDetune: 0.1,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.05, vco1Octave: -1, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.88, vco1Pwm: 0.5,
@@ -465,7 +465,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b05', bank: 'B', slot: 5, name: 'Unison 16-Voice Wall', category: 'Lead',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Massive 3-oscillator detuned unison stack harnessing Audity’s voice cards for stadium leads.',
     voiceMode: 'unison', glide: 0.09, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.64,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.2, vco1Octave: 0, vco1Tune: 0, vco1Fine: -15, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -485,7 +485,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b06', bank: 'B', slot: 6, name: 'CS-Style Brass Swell', category: 'Brass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Expressive Vangelis-style slow brass swell with 260ms filter attack and 120Hz HPF contour.',
     voiceMode: 'poly16', glide: 0.06, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.24,
     vco1WaveId: 'emu-brass-horn', vco1Morph: 0.52, vco1Octave: 0, vco1Tune: 0, vco1Fine: -7, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -505,7 +505,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b07', bank: 'B', slot: 7, name: 'Crystal Marimba', category: 'Keys',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Short percussive wooden-glass mallet with zero sustain and sparkling delay tail.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.08,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.1, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -525,7 +525,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b08', bank: 'B', slot: 8, name: 'FM CrossMod Fifth', category: 'Lead',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'VCO2 tuned +7 semitones cross-modulating VCO1 for singing harmonic bite and sustain.',
     voiceMode: 'poly16', glide: 0.06, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.18,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.18, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -545,7 +545,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b09', bank: 'B', slot: 9, name: 'Wavetable Horizon', category: 'Wavetable',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Ultra-slow 0.28Hz LFO morphing between Resonant Peak and String Ensemble.',
     voiceMode: 'poly16', glide: 0.04, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.24,
     vco1WaveId: 'emu-resonant-sweep', vco1Morph: 0.15, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.78, vco1Pwm: 0.5,
@@ -565,7 +565,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b10', bank: 'B', slot: 10, name: 'Subterranean Drone', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Deep 1.6s swelling subterranean rumble with pink noise and dark resonant sweep.',
     voiceMode: 'poly16', glide: 0.22, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.34,
     vco1WaveId: 'emu-sub-bass', vco1Morph: 0.5, vco1Octave: -2, vco1Tune: 0, vco1Fine: -8, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -585,7 +585,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b11', bank: 'B', slot: 11, name: 'PWM Solina Ensemble', category: 'Pad',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Classic 70s string machine driven by deep pulse-width modulation and lush BBD chorus.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.22,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.2, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.78, vco1Pwm: 0.5,
@@ -605,7 +605,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b12', bank: 'B', slot: 12, name: '80s Soundtrack Bass', category: 'Bass',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Crisp octave-stacked analog synth bass with punchy 240ms filter snap.',
     voiceMode: 'poly16', glide: 0.03, masterTune: 0, masterVolume: 0.82, unisonDetune: 0.16,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.15, vco1Octave: -1, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -625,7 +625,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b13', bank: 'B', slot: 13, name: 'Sample & Hold Matrix', category: 'FX',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Stepped Z-80 S&H random modulation driving high-resonance SSM filters and wave morph.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.2,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.3, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.76, vco1Pwm: 0.5,
@@ -645,7 +645,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b14', bank: 'B', slot: 14, name: 'Velvet Polysynth', category: 'Keys',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Warm polyphonic comping keys with balanced 720ms decay and velvety SSM2040 roll-off.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.16,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.12, vco1Octave: 0, vco1Tune: 0, vco1Fine: -5, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -665,7 +665,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'b15', bank: 'B', slot: 15, name: 'Percussive Bell Seq', category: 'Seq',
-    author: 'E-mu / Audity 78',
+    author: 'L.A. / Audity 78',
     description: 'Bright metallic step sequence tuned for live cutoff & morph tweaking.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.12,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.22, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -684,9 +684,9 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 122, sequencerSteps: SEQ_ARP_MAJ9,
   }),
   buildPatch({
-    id: 'b16', bank: 'B', slot: 16, name: 'E-mu Heritage Pad', category: 'Pad',
-    author: 'E-mu / Audity 78',
-    description: 'Grand finale pad uniting Emulator Strings, Choir formants, and wide stereo Tape Echo.',
+    id: 'b16', bank: 'B', slot: 16, name: 'L.A. Heritage Pad', category: 'Pad',
+    author: 'L.A. / Audity 78',
+    description: 'Grand finale pad uniting L.A. Strings, Choir formants, and wide stereo Tape Echo.',
     voiceMode: 'poly16', glide: 0.05, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.28,
     vco1WaveId: 'emu-string-ens', vco1Morph: 0.58, vco1Octave: 0, vco1Tune: 0, vco1Fine: -10, vco1Level: 0.8, vco1Pwm: 0.5,
     vco2WaveId: 'emu-choir-ah', vco2Morph: 0.68, vco2Octave: 0, vco2Tune: 0, vco2Fine: 10, vco2Level: 0.76, vco2Sync: false, crossModFm: 0,
@@ -705,11 +705,11 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
 
   // =========================================================================
-  // BANK C: EMULATOR SOUNDBANKS & WAVETABLE LABORATORY (1..16)
+  // BANK C: L.A. SOUNDBANKS & WAVETABLE LABORATORY (1..16)
   // =========================================================================
   buildPatch({
     id: 'c01', bank: 'C', slot: 1, name: 'Scotts Valley Pluck', category: 'Wavetable',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Short exponential wavefolded pluck with 145ms filter decay and brisk stereophonic echo.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.14,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.68, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -729,7 +729,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c02', bank: 'C', slot: 2, name: 'Audity Pipe Organ', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Chiff-laden Baroque pipe organ with noise transient burst and 1.1s cathedral tail.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.75, unisonDetune: 0.12,
     vco1WaveId: 'emu-organ-perc', vco1Morph: 0.45, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -749,7 +749,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c03', bank: 'C', slot: 3, name: 'Prophet-Killer Brass', category: 'Brass',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Punchy early-80s stadium brass stab with fast 18ms attack and bright SSM2040 bite.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.22,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.22, vco1Octave: 0, vco1Tune: 0, vco1Fine: -8, vco1Level: 0.86, vco1Pwm: 0.5,
@@ -769,7 +769,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c04', bank: 'C', slot: 4, name: 'Dub Chord Stab', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Deep minor-chord dub stab tuned +7/+3 with heavy tape delay feedback wash.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.15,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.35, vco1Octave: 0, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.8, vco1Pwm: 0.3,
@@ -789,7 +789,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c05', bank: 'C', slot: 5, name: 'Sub-Zero Reese', category: 'Bass',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Gritty detuned unison saw bass with wide phase beating and 42% OTA drive.',
     voiceMode: 'unison', glide: 0.12, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.58,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.32, vco1Octave: -1, vco1Tune: 0, vco1Fine: -16, vco1Level: 0.85, vco1Pwm: 0.5,
@@ -809,7 +809,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c06', bank: 'C', slot: 6, name: 'Gamelan Kalimba', category: 'Wavetable',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Hollow wooden-metallic thumb piano with immediate percussive transient and shimmer tail.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.1,
     vco1WaveId: 'emu-metal-clang', vco1Morph: 0.14, vco1Octave: 0, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.78, vco1Pwm: 0.5,
@@ -829,7 +829,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c07', bank: 'C', slot: 7, name: 'Flute Mellotron', category: 'Pad',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Breathy vintage tape flute combining filtered pink noise hiss with pure triangle core.',
     voiceMode: 'poly16', glide: 0.04, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.12,
     vco1WaveId: 'ssm-tri-fold', vco1Morph: 0.04, vco1Octave: 0, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -849,7 +849,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c08', bank: 'C', slot: 8, name: 'Sync-Sweep Rocket', category: 'Lead',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Screaming hard-sync solo lead with 380ms TG1 upward harmonic sweep.',
     voiceMode: 'mono', glide: 0.14, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.16,
     vco1WaveId: 'ssm-saw', vco1Morph: 0.18, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -868,8 +868,8 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 128, sequencerSteps: SEQ_BERLIN,
   }),
   buildPatch({
-    id: 'c09', bank: 'C', slot: 9, name: 'Emulator Cello Section', category: 'Pad',
-    author: 'E-mu / Soundbanks',
+    id: 'c09', bank: 'C', slot: 9, name: 'L.A. Cello Section', category: 'Pad',
+    author: 'L.A. / Soundbanks',
     description: 'Low-register bowed cello section with slow bow bite and warm 2040 midrange presence.',
     voiceMode: 'poly16', glide: 0.05, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.22,
     vco1WaveId: 'emu-string-ens', vco1Morph: 0.14, vco1Octave: -1, vco1Tune: 0, vco1Fine: -6, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -889,7 +889,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c10', bank: 'C', slot: 10, name: 'Z-80 Arp Pulser', category: 'Seq',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Sharp 16-step wavetable arpeggiator with inverse filter contour and rhythmic delay.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.12,
     vco1WaveId: 'emu-resonant-sweep', vco1Morph: 0.28, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -909,7 +909,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c11', bank: 'C', slot: 11, name: 'Wurli Reed Keys', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Biting vintage reed piano with mid-focused OTA warmth and tremolo amplitude LFO.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.8, unisonDetune: 0.08,
     vco1WaveId: 'emu-digital-ep', vco1Morph: 0.72, vco1Octave: 0, vco1Tune: 0, vco1Fine: 0, vco1Level: 0.84, vco1Pwm: 0.5,
@@ -929,7 +929,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c12', bank: 'C', slot: 12, name: 'Tangerine Pulse Pad', category: 'Pad',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Slowly pulsing harmonic pad using stepped S&H filter modulation over warm Choir Ah.',
     voiceMode: 'poly16', glide: 0.04, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.24,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.4, vco1Octave: 0, vco1Tune: 0, vco1Fine: -6, vco1Level: 0.78, vco1Pwm: 0.5,
@@ -949,7 +949,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c13', bank: 'C', slot: 13, name: 'Hollow Bassoon', category: 'Bass',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Woodwind-inspired hollow square/tri bass with soft 45ms attack and warm woody resonance.',
     voiceMode: 'mono', glide: 0.06, masterTune: 0, masterVolume: 0.82, unisonDetune: 0.1,
     vco1WaveId: 'ssm-pulse', vco1Morph: 0.18, vco1Octave: -1, vco1Tune: 0, vco1Fine: -2, vco1Level: 0.84, vco1Pwm: 0.42,
@@ -969,7 +969,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c14', bank: 'C', slot: 14, name: 'Cybernetic Choir FX', category: 'FX',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Eerie vocoder-like metallic choir swept by negative filter envelope and ring modulation.',
     voiceMode: 'poly16', glide: 0.18, masterTune: 0, masterVolume: 0.74, unisonDetune: 0.28,
     vco1WaveId: 'emu-choir-ah', vco1Morph: 0.85, vco1Octave: 0, vco1Tune: 0, vco1Fine: -9, vco1Level: 0.68, vco1Pwm: 0.5,
@@ -989,7 +989,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   }),
   buildPatch({
     id: 'c15', bank: 'C', slot: 15, name: 'Sub-Octave Harmonium', category: 'Keys',
-    author: 'E-mu / Soundbanks',
+    author: 'L.A. / Soundbanks',
     description: 'Bellows-driven reed harmonium with soft 85ms swell and warm lower-octave drawbars.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.14,
     vco1WaveId: 'emu-organ-perc', vco1Morph: 0.62, vco1Octave: 0, vco1Tune: 0, vco1Fine: -4, vco1Level: 0.8, vco1Pwm: 0.5,
@@ -1008,8 +1008,8 @@ export const FACTORY_PRESETS: AudityPatch[] = [
     sequencerTempo: 96, sequencerSteps: SEQ_ARP_MAJ9,
   }),
   buildPatch({
-    id: 'c16', bank: 'C', slot: 16, name: 'E-mu Celestial Bell', category: 'Wavetable',
-    author: 'E-mu / Soundbanks',
+    id: 'c16', bank: 'C', slot: 16, name: 'L.A. Celestial Bell', category: 'Wavetable',
+    author: 'L.A. / Soundbanks',
     description: 'Long-sustaining shimmer bell with 2.4s exponential amp release and slow pitch drift.',
     voiceMode: 'poly16', glide: 0, masterTune: 0, masterVolume: 0.76, unisonDetune: 0.16,
     vco1WaveId: 'emu-glass-bell', vco1Morph: 0.68, vco1Octave: 0, vco1Tune: 0, vco1Fine: -3, vco1Level: 0.82, vco1Pwm: 0.5,
@@ -1334,7 +1334,7 @@ export const FACTORY_PRESETS: AudityPatch[] = [
   buildPatch({
     id: 'd16', bank: 'D', slot: 16, name: 'Audity Grand Finale', category: 'Brass',
     author: 'Open-MPC / Audity',
-    description: 'Lush brass-string hybrid combining E-mu Brass, String Ensemble, and wide BBD chorus.',
+    description: 'Lush brass-string hybrid combining L.A. Brass, String Ensemble, and wide BBD chorus.',
     voiceMode: 'poly16', glide: 0.03, masterTune: 0, masterVolume: 0.78, unisonDetune: 0.26,
     vco1WaveId: 'emu-brass-horn', vco1Morph: 0.6, vco1Octave: 0, vco1Tune: 0, vco1Fine: -7, vco1Level: 0.84, vco1Pwm: 0.5,
     vco2WaveId: 'emu-string-ens', vco2Morph: 0.65, vco2Octave: 0, vco2Tune: 0, vco2Fine: 8, vco2Level: 0.76, vco2Sync: false, crossModFm: 0.02,

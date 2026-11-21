@@ -199,7 +199,7 @@ export const LcdTouchscreen: React.FC<LcdTouchscreenProps> = ({
       architecture: 'Open-MPC Native Instrument / VST3 / LV2',
       targets: ['GEN1 (MPC Live/One/X/Force armv7l)', 'GEN2 (MPC Live III aarch64)', 'OS 3.10.1+'],
       license: 'MIT',
-      emulatedHardware: 'E-mu Systems Audity (1978/1980 Z-80 + SSM2040 Prototype)',
+      emulatedHardware: 'L.A. Systems Audity (1978/1980 Z-80 + SSM2040 Prototype)',
       dspEngine: {
         polyphony: 16,
         oscillators: ['Wavetable VCO1 (Fourier 44-Harm)', 'Wavetable VCO2 (Sync + Cross-Mod FM)'],

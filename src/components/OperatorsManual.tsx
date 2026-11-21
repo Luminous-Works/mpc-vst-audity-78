@@ -46,7 +46,7 @@ const BANKS: Array<'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H'> = [
 const BANK_TITLES: Record<'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H', string> = {
   A: 'Bank A — Iconic 1978 Audity Signature Collection',
   B: 'Bank B — West-Coast Wavetable, FM & Ring Mod Lab',
-  C: 'Bank C — Vintage Analog Heritage & E-mu Soundbanks',
+  C: 'Bank C — Vintage Analog Heritage & L.A. Soundbanks',
   D: 'Bank D — Modern Open-MPC Hybrid, Techno & Cinematic',
   E: 'Bank E — Vintage Prog, Berlin School & Analog Cinema',
   F: 'Bank F — Electro, Acid, Dub & Experimental Rhythms',
@@ -204,7 +204,7 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
                     1978 Prototype Heritage
                   </div>
                   <p className="text-xs text-slate-700 leading-relaxed">
-                    Faithfully models the Z-80 microprocessor architecture, sky-blue anodized panel, walnut cabinet framing, and cascaded SSM2040 resonant filter topology of the legendary 1978 E-mu Audity prototype.
+                    Faithfully models the Z-80 microprocessor architecture, sky-blue anodized panel, walnut cabinet framing, and cascaded SSM2040 resonant filter topology of the legendary 1978 L.A. Audity prototype.
                   </p>
                 </div>
                 <div className="bg-white border border-slate-300 p-3.5 rounded-[3px]">
@@ -220,7 +220,7 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
                     Open-MPC &amp; FX8010 Core
                   </div>
                   <p className="text-xs text-slate-700 leading-relaxed">
-                    Engineered for standalone Akai MPC (GEN1 / GEN2) and desktop DAWs with 16 Q-Link fader routes, MIDI Learn, and programmable E-mu FX8010 DANE assembly microcode effects.
+                    Engineered for standalone Akai MPC (GEN1 / GEN2) and desktop DAWs with 16 Q-Link fader routes, MIDI Learn, and programmable L.A. FX8010 DANE assembly microcode effects.
                   </p>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
             />
 
             <p className="text-sm text-slate-700 leading-relaxed">
-              The original <strong>1978/1980 E-mu Systems Audity</strong> was designed by Dave Rossum and Scott Wedge as one of the earliest microprocessor-controlled polyphonic synthesizers—combining a Z-80 host CPU with 16 modular voice cards built around Solid State Micro Technology (SSM) analog chips. Because only one prototype chassis was ever completed, few musicians ever touched its panel. <strong>Lumina.Aerospace Audity &apos;78</strong> resurrects that architecture for the Open-MPC ecosystem while replacing fixed analog oscillators with band-limited 44-harmonic Fourier wavetable synthesis and real-time Preset Morphing.
+              The original <strong>1978/1980 L.A. Systems Audity</strong> was designed by Dave Rossum and Scott Wedge as one of the earliest microprocessor-controlled polyphonic synthesizers—combining a Z-80 host CPU with 16 modular voice cards built around Solid State Micro Technology (SSM) analog chips. Because only one prototype chassis was ever completed, few musicians ever touched its panel. <strong>Lumina.Aerospace Audity &apos;78</strong> resurrects that architecture for the Open-MPC ecosystem while replacing fixed analog oscillators with band-limited 44-harmonic Fourier wavetable synthesis and real-time Preset Morphing.
             </p>
 
             {/* Voice Signal Flow SVG Schematic */}
@@ -395,7 +395,7 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
 
               <PanelCard title="VCO 1 & VCO 2 (Dual Wavetable Oscillators)">
                 <ul className="space-y-1.5 text-xs text-slate-700">
-                  <li><strong>Wavetable Selector Silkscreen:</strong> Click the amber wavetable name in the VCO 1 or VCO 2 header bar to cycle through all 12 E-mu / SSM wavetables plus any custom drawn or imported <code>.WAV</code> tables.</li>
+                  <li><strong>Wavetable Selector Silkscreen:</strong> Click the amber wavetable name in the VCO 1 or VCO 2 header bar to cycle through all 12 L.A. / SSM wavetables plus any custom drawn or imported <code>.WAV</code> tables.</li>
                   <li><strong>COARSE / FINE (DETUNE):</strong> Adjust oscillator tuning across <code>±12 semitones</code> (octave/fifth intervals) and <code>±50 cents</code> fine detune for thick analog chorusing.</li>
                   <li><strong>MORPH &amp; LEVEL:</strong> Sweeps smoothly between the primary waveform frame and its secondary harmonic target frame (<code>0–100%</code>) before mixing into the SSM2040 bus.</li>
                   <li><strong>X-MOD &amp; SYNC (VCO 2):</strong> Linear FM Cross-Modulation routes VCO 2 into VCO 1&apos;s frequency input; <strong>SYNC ON</strong> engages aggressive harmonic sync bite.</li>
@@ -486,7 +486,7 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
               />
               <TouchTabCard
                 tab="MPC (F5)"
-                summary="Inspect the 5-stage DSP graph, edit & validate E-mu FX8010 DANE assembly microcode live, or copy/download the full Open-MPC manifest bundle."
+                summary="Inspect the 5-stage DSP graph, edit & validate L.A. FX8010 DANE assembly microcode live, or copy/download the full Open-MPC manifest bundle."
               />
             </div>
 
@@ -546,7 +546,7 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
                 </div>
                 <ul className="space-y-1.5 text-slate-700 list-disc pl-4">
                   <li><strong>Perceptual Logarithmic Scaling:</strong> HPF/LPF cutoffs, LFO rate, and all 6 TG1/TG2 envelope attack, decay, and release times interpolate geometrically (<code>a · (b/a)^t</code>) so filter sweeps and envelope openings feel smooth and linear to the human ear.</li>
-                  <li><strong>Fourier Cross-Wavetable Blending:</strong> When Slot A and Slot B use different wavetables (for instance, <em>SSM Sawtooth</em> vs. <em>E-mu Glass Bell</em>), the DSP engine blends both 128-sample waveforms sample-by-sample and recalculates 44-harmonic <code>PeriodicWave</code> tables in real time—updating held notes with zero clicks or abrupt switches.</li>
+                  <li><strong>Fourier Cross-Wavetable Blending:</strong> When Slot A and Slot B use different wavetables (for instance, <em>SSM Sawtooth</em> vs. <em>L.A. Glass Bell</em>), the DSP engine blends both 128-sample waveforms sample-by-sample and recalculates 44-harmonic <code>PeriodicWave</code> tables in real time—updating held notes with zero clicks or abrupt switches.</li>
                   <li><strong>Mod Matrix Merging:</strong> Enabled modulation matrix slots from Patch A (weighted by <code>1 - t</code>) and Patch B (weighted by <code>t</code>) are merged into a unified active routing table.</li>
                 </ul>
               </div>
@@ -765,7 +765,7 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
               <div className="space-y-2">
                 <SpecRow k="Synthesis Engine" v="16-Voice Polyphonic Wavetable + Subtractive" />
                 <SpecRow k="Oscillators Per Voice" v="VCO 1 (44-Harm Fourier + Sub), VCO 2 (Sync + FM)" />
-                <SpecRow k="Wavetable Storage" v="12 E-mu / SSM ROM Tables + Draw & .WAV Import" />
+                <SpecRow k="Wavetable Storage" v="12 L.A. / SSM ROM Tables + Draw & .WAV Import" />
                 <SpecRow k="Preset Morph Engine" v="Logarithmic Param + Real-Time Cross-Table Blend" />
                 <SpecRow k="High-Pass Filter" v="12dB/Octave Resonant (20 Hz – 6,000 Hz)" />
                 <SpecRow k="Low-Pass Filter" v="24dB/Oct Dual SSM2040 + 2× OTA Soft-Clip Drive" />
