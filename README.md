@@ -4,6 +4,10 @@
 
 *The plugin's own touch-screen pages, drawn by the SDK previewer at default values. All six pages: [`docs/screenshots/contact_sheet.png`](docs/screenshots/contact_sheet.png).*
 
+**Reference emulator (browser, not the MPC screen).** This is the front panel the MPC plugin's sound and parameters come from; the desktop VST3 is planned from it. The MPC build does not have this artwork yet.
+
+![Audity '78 reference emulator panel](docs/screenshots/reference-panel.png)
+
 **Lumina Aerospace LLC.** A wavetable synthesizer (16 voices in the reference, 8 on the MPC) after the 1978 Audity prototype, carrying the **L.A.** (Lumina.Aerospace) mark (the original is out of production): two wavetable oscillators, an SSM2040-style 24 dB low-pass and 12 dB high-pass, two transient generators, a five-shape LFO, noise and ring mod, and a stereo effects stage. It ships with 128 factory patches in eight banks.
 
 > **Independent project.** Audity '78 is by Lumina Aerospace LLC and is not affiliated with the makers of the original instrument. All waveforms are synthesised in code (`src/data/wavetables.ts`); no third-party ROM or sample data is included.
