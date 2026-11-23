@@ -182,11 +182,6 @@ export const OperatorsManual: React.FC<OperatorsManualProps> = ({
 
               {/* Cover Hardware Plate */}
               <figure className="bg-[#0e1522] p-3 sm:p-4 rounded-[4px] border-2 border-[#113a78] shadow-lg">
-                <img
-                  src="/assets/aistudio/image_6b207d2f.png"
-                  alt="Lumina.Aerospace Audity '78 Front Panel Hardware Interface"
-                  className="w-full h-auto rounded-[2px] border border-slate-700 block"
-                />
                 <figcaption className="mt-3 pt-2.5 border-t border-slate-700/80 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 text-[10px] font-mono-tabular text-sky-200">
                   <div><strong className="text-amber-300">[01]</strong> Z-80 LCD Touchscreen</div>
                   <div><strong className="text-amber-300">[02]</strong> 16-Memory Matrix</div>
