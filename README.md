@@ -1,7 +1,5 @@
 # Audity '78
 
-![Audity '78 front panel](public/assets/aistudio/image_6b207d2f.png)
-
 **Lumina Aerospace LLC.** A wavetable synthesizer (16 voices in the reference, 8 on the MPC) after the 1978 Audity prototype, carrying the **L.A.** (Lumina.Aerospace) mark (the original is out of production): two wavetable oscillators, an SSM2040-style 24 dB low-pass and 12 dB high-pass, two transient generators, a five-shape LFO, noise and ring mod, and a stereo effects stage. It ships with 128 factory patches in eight banks.
 
 > **Independent project.** Audity '78 is by Lumina Aerospace LLC and is not affiliated with the makers of the original instrument. All waveforms are synthesised in code (`src/data/wavetables.ts`); no third-party ROM or sample data is included.
@@ -15,7 +13,7 @@ This repository holds two things:
 
 A desktop VST3 and desktop app are planned as a separate build after the catalogue release.
 
-Not catalogue-listed yet: that needs a device smoke test and a GitHub release zip. Steps are in [`docs/MPC-RELEASE.md`](docs/MPC-RELEASE.md).
+Listed in the Open MPC catalogue as 0.1.0 (Listed tier, not yet device-tested). 0.1.1 fixes the installer line endings and adds the licence notices. A device smoke test is still to do; steps are in [`docs/MPC-RELEASE.md`](docs/MPC-RELEASE.md).
 
 ### Known gaps in the MPC build
 
