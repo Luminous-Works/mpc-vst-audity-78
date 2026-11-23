@@ -52,3 +52,9 @@ Release zip SHA-256 (0.1.0):
 - aarch64: `e98a42592fd6b8ccf3cd6a7f3644af1ab9f33e24c60becd690958b02a1b11d0c`
 
 Next version: bump `plugin.json` `version` (Y for new parameters, Z for fixes), keep the uid `AU78`, the `.so` name and the catalogue id `audity-78` fixed forever, and append new parameters at the end.
+
+## 0.2.0: the blue panel skin, and two packaging traps (2026-11-23)
+
+- The MPC screen is now `skins/` (blue L.A. panel). It is generated, not hand-drawn: `python <sdk>/tools/gen_ui.py --params build/params.json --ui ui.json --out <tmp> --kit-cache build`, then `python tools/make_blue_skin.py <tmp> skins` (see the docstring). `tools/build.py` copies `skins/` verbatim when it exists. Re-run both after any `ui.json` change. `tools/skin_fix.py` is a helper copied from the F4 Phantom project.
+- `version.xml`: bump `<version>` for a release, but **keep `<uiversion>` at `0.1.0.0`**. A higher value makes the MPC refuse to load the plugin (`<sdk>/tools/validate.py` reports it as an error). Run `validate.py` on the build folder before packaging.
+- Package from a catalogue clone with `core.autocrlf=false` (or normalise `tools/release/*.sh` and `plugin_list.awk` to LF first). With `autocrlf=true` the installer scripts are CRLF and the plugin never registers on the device (this hit 0.1.0, F4 Phantom 1.1.0 and Vulcan Rotary 1.0.0). Count the CRs in the zip's scripts: it must be 0.

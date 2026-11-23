@@ -42,5 +42,6 @@
       { "param": "Feedback", "widget": "knob" }, "empty",
       { "param": "Reverb Mix", "widget": "knob" }, { "param": "Reverb Space", "widget": "knob" }
     ] }
-  ]
+  ],
+  "style": {"background": "ff6fa8d8", "accent": "ff7fd8ff", "text": "ffffffff", "muted": "ffc8e0f6"}
 }
